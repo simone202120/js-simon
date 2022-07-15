@@ -17,8 +17,17 @@ let numeriuguali =[];
 let numeriGiusti;
 
 generanumeri()
+setTimeout(function(){
+    document.getElementById('boxnumeri').classList.add('none')
+}, 30000);
+setTimeout(function(){
 recuperanumeri()
 controllo()
+alert('Hai indovinato '+ numeriuguali.length + ' numeri:' + numeriuguali)
+
+}, 30010);
+
+
 
 
 
