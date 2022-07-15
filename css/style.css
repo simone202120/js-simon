@@ -2,4 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.container{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    background-color: #716040;
+    border: solid 15px #020826;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numeri{
+    height: 50%;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #eaddcf;
+    color: #f25042;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.titolo{
+    margin-bottom: 30px;
 }
